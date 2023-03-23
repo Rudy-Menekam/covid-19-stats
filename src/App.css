@@ -1,3 +1,123 @@
 .App {
   text-align: center;
 }
+
+/*
+body {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/41294/hero.jpg) no-repeat center center fixed;
+  background-size: cover;
+} */
+
+.section {
+  background-color: transparent;
+  background-image: url(https://www.arcgis.com/sharing/rest/content/items/4f30961fd4c84e639bafa621f433bb17/resources/hub-image-card-crop-iu8wpye2b.png?v=1679490445113);
+  background-position: center center;
+  background-attachment: inherit;
+  background-size: cover;
+  padding: 1%;
+}
+
+.header img {
+  width: 80px;
+  height: 80px;
+  margin-top: -16px;
+}
+
+.header {
+  display: flex;
+  padding: 30px;
+  padding-left: 155px;
+  margin: 0;
+  background-color: whitesmoke;
+  height: 44px;
+}
+
+.search {
+  width: 500px;
+  height: 40px;
+  margin: 150px auto;
+  background: #444;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  border: 1px solid #fff;
+}
+
+input {
+  width: 370px;
+  padding: 10px 5px;
+  float: left;
+  color: #ccc;
+  border: 0;
+  background: transparent;
+  border-radius: 3px 0 0 3px;
+}
+
+input:focus {
+  outline: 0;
+  background: transparent;
+}
+
+button {
+  position: relative;
+  float: right;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  height: 40px;
+  width: 120px;
+  color: #fff;
+  background: transparent;
+  border-left: 1px solid #fff;
+  border-radius: 0 3px 3px 0;
+}
+
+button:hover {
+  background: #fff;
+  color: #444;
+}
+
+button:active {
+  box-shadow: 0 0 12px 0 rgba(225, 225, 225, 1);
+}
+
+button:focus {
+  outline: 0;
+}
+
+.logo {
+  margin-left: 20px;
+  margin-top: 3px;
+  color: #47525d;
+  font-size: 28px;
+}
+
+.country {
+  padding: 18px;
+  display: flex;
+  border: 0.5px solid gainsboro;
+  width: 80%;
+  margin: 57px;
+  background-color: #f5f5f5;
+}
+
+.country img {
+  width: 66%;
+}
+
+.description {
+  margin-left: 60px;
+}
+
+.text {
+  padding-top: 82px;
+}
+
+svg {
+  margin-left: 77px;
+  font-size: 27px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}

@@ -1,13 +1,14 @@
 import './App.css';
+import Categories from './components/categories';
+import Header from './components/header';
+import Search from './components/search';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Hello world!
-        </p>
-      </header>
+      <Header />
+      <Search />
+      <Categories />
     </div>
   );
 }

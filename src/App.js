@@ -1,14 +1,18 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Categories from './components/categories';
+import CountryDetails from './components/countryDetails';
 import Header from './components/header';
-import Search from './components/search';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Search />
-      <Categories />
+      <Routes>
+        <Route path="/" element={<Categories />} />
+        <Route path="/country/:id" element={<CountryDetails />} />
+      </Routes>
+
     </div>
   );
 }

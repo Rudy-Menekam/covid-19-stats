@@ -1,8 +1,9 @@
 import { BsArrowRightCircle } from 'react-icons/bs';
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-// import search from '../images/search.png';
 import { fetchCountries } from '../redux/categoriesSlice';
+import Search from './search';
 
 const Categories = () => {
   const dispatch = useDispatch();
@@ -31,16 +32,17 @@ const Categories = () => {
 
   return (
     <>
+      <Search />
       <div className="grid-container">
         {displayCountries().map((country) => (
-          <div className="country">
+          <div className="country" key={country.id}>
             <img src={country.flag} alt="search" />
             <div className="description">
-              <BsArrowRightCircle />
               <div className="text">
                 <p>{country.country}</p>
                 <p>{country.cases}</p>
               </div>
+              <Link to={`/country/${country.id}`}><BsArrowRightCircle /></Link>
             </div>
           </div>
         ))}

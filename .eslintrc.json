@@ -20,7 +20,8 @@
       "import/no-unresolved": "off",
       "no-shadow": "off",
       "camelcase": "off",
-      "no-underscore-dangle":  ["error", { "allow": ["_place"] }]
+      "no-underscore-dangle": "off",
+      "no-param-reassign": "off"
 
     },
     "ignorePatterns": [

@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for countryDetails should render 1`] = `
+Array [
+  <div
+    className="section"
+  >
+    <form
+      className="search"
+    >
+      <input
+        onChange={[Function]}
+        placeholder="Search here..."
+        required={true}
+        type="search"
+        value=""
+      />
+      <button
+        onClick={[Function]}
+        type="submit"
+      >
+        Search
+      </button>
+    </form>
+  </div>,
+  <div
+    className="grid-container"
+  />,
+]
+`;

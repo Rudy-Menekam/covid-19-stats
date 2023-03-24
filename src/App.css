@@ -1,3 +1,264 @@
-.App {
-  text-align: center;
+.header {
+  display: flex;
+  padding: 13px;
+  background-color: whitesmoke;
+  height: 44px;
+  width: 93%;
+}
+
+.icon {
+  padding-left: 35%;
+  padding-top: 7px;
+}
+
+.logo {
+  font-size: 16px;
+  margin-left: 15px;
+  margin-top: 9px;
+}
+
+.icon svg {
+  font-size: 16px;
+  margin: 4px;
+}
+
+.search {
+  width: 318px;
+  height: 40px;
+  margin: 58px auto;
+  background: #444;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  border: 1px solid #fff;
+}
+
+.section {
+  background-color: transparent;
+  background-image: url(https://www.arcgis.com/sharing/rest/content/items/4f30961fd4c84e639bafa621f433bb17/resources/hub-image-card-crop-iu8wpye2b.png?v=1679490445113);
+  background-position: center center;
+  background-attachment: inherit;
+  background-size: cover;
+  padding: 1%;
+}
+
+input {
+  width: 190px;
+  padding: 10px 5px;
+  float: left;
+  color: #ccc;
+  border: 0;
+  background: transparent;
+  border-radius: 3px 0 0 3px;
+}
+
+input:focus {
+  outline: 0;
+  background: transparent;
+}
+
+button {
+  position: relative;
+  float: right;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  height: 40px;
+  width: 120px;
+  color: #fff;
+  background: transparent;
+  border-left: 1px solid #fff;
+  border-radius: 0 3px 3px 0;
+}
+
+button:hover {
+  background: #fff;
+  color: #444;
+}
+
+button:active {
+  box-shadow: 0 0 12px 0 rgba(225, 225, 225, 1);
+}
+
+button:focus {
+  outline: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.country {
+  border: 0.5px solid gainsboro;
+  margin: 8px;
+  background-color: #f5f5f5;
+}
+
+.country img {
+  width: 100%;
+}
+
+.description {
+  display: flex;
+  padding: 4px;
+  justify-content: space-between;
+}
+
+.description svg {
+  padding-top: 12px;
+  font-size: 26px;
+}
+
+.detailsContainer {
+  border: 1px solid gainsboro;
+  margin: 18px;
+  background-color: whitesmoke;
+}
+
+.detailsContainer img {
+  width: 100%;
+}
+
+.profile svg {
+  margin: 10px;
+  position: absolute;
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.logo-area {
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    background-color: transparent;
+    background-image: url(https://www.arcgis.com/sharing/rest/content/items/4f30961fd4c84e639bafa621f433bb17/resources/hub-image-card-crop-iu8wpye2b.png?v=1679490445113);
+    background-position: center center;
+    background-attachment: inherit;
+    background-size: cover;
+    padding: 1%;
+  }
+
+  .header img {
+    width: 70px;
+    height: 70px;
+    margin-top: -2px;
+    padding-left: 50px;
+  }
+
+  .header {
+    height: 62px;
+    width: 98.5%;
+    justify-content: space-between;
+  }
+
+  .search {
+    width: 500px;
+    height: 40px;
+    margin: 150px auto;
+    background: #444;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    border: 1px solid #fff;
+  }
+
+  input {
+    width: 370px;
+    padding: 10px 5px;
+    float: left;
+    color: #ccc;
+    border: 0;
+    background: transparent;
+    border-radius: 3px 0 0 3px;
+  }
+
+  input:focus {
+    outline: 0;
+    background: transparent;
+  }
+
+  button {
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 40px;
+    width: 120px;
+    color: #fff;
+    background: transparent;
+    border-left: 1px solid #fff;
+    border-radius: 0 3px 3px 0;
+  }
+
+  button:hover {
+    background: #fff;
+    color: #444;
+  }
+
+  button:active {
+    box-shadow: 0 0 12px 0 rgba(225, 225, 225, 1);
+  }
+
+  button:focus {
+    outline: 0;
+  }
+
+  .logo {
+    margin-left: 20px;
+    margin-top: 11px;
+    color: #47525d;
+    font-size: 27px;
+  }
+
+  .country {
+    display: flex;
+    border: 0.5px solid gainsboro;
+    margin: 15px;
+    background-color: #f5f5f5;
+  }
+
+  .country img {
+    width: 66%;
+  }
+
+  .text {
+    margin-left: 10px;
+  }
+
+  .description {
+    margin-left: 12px;
+    padding: 6px;
+    display: grid;
+  }
+
+  .description svg {
+    margin-left: 66px;
+    padding-top: 45px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .icon {
+    padding-left: 43%;
+  }
+
+  .icon svg {
+    font-size: 27px;
+    margin: 10px;
+  }
+
+  .detailsContainer {
+    margin: 200px;
+  }
 }

@@ -60,8 +60,8 @@ HTML 5 , css3, javascript ES6, React , Redux and external API</a>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
--[Live video](https://www.loom.com/share/5fb7c791092a4418ac2ea9ae8bb3e5f5)
--[live Demo](https://world-covid19stats.netlify.app/)
+>[Live video](https://www.loom.com/share/5fb7c791092a4418ac2ea9ae8bb3e5f5)
+>[live Demo](https://world-covid19stats.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

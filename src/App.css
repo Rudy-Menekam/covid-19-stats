@@ -1,20 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
 .header {
   display: flex;
   padding: 13px;
   background-color: whitesmoke;
   height: 44px;
-  width: 93%;
+  width: 100%;
 }
 
 .icon {
-  padding-left: 35%;
-  padding-top: 7px;
+  padding-left: 46%;
 }
 
 .logo {
-  font-size: 16px;
+  font-size: 15px;
   margin-left: 15px;
-  margin-top: 9px;
+  margin-top: -2px;
 }
 
 .icon svg {
@@ -147,15 +153,15 @@ ul li {
   }
 
   .header img {
-    width: 70px;
-    height: 70px;
+    width: 94px;
+    height: 40px;
     margin-top: -2px;
     padding-left: 50px;
   }
 
   .header {
     height: 62px;
-    width: 98.5%;
+    width: 100%;
     justify-content: space-between;
   }
 
@@ -212,10 +218,10 @@ ul li {
   }
 
   .logo {
-    margin-left: 20px;
-    margin-top: 11px;
+    margin-left: 15px;
+    margin-top: -2px;
     color: #47525d;
-    font-size: 27px;
+    font-size: 24px;
   }
 
   .country {
@@ -240,8 +246,8 @@ ul li {
   }
 
   .description svg {
-    margin-left: 66px;
-    padding-top: 45px;
+    padding-top: 7px;
+    font-size: 30px;
   }
 
   .grid-container {

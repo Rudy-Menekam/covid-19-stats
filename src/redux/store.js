@@ -5,7 +5,6 @@ const store = configureStore({
   reducer: {
     countries: categoriesReducer,
   },
-  // applyMiddleware: [thunk, logger],
 });
 
 export default store;

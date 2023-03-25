@@ -1,4 +1,8 @@
 # Covid-19 Stats
+<div align="center">>
+  <img src="./src/images/search.png" alt="logo" width="140"  height="auto" />
+  <br/>
+  <h3> 🚀 <b>Covid-19 Stats</b></h3>
 
 </div>
 
@@ -30,7 +34,8 @@
 
 > **A Covid-19 statistics app is a mobile application designed to provide up-to-date information on the number of confirmed cases, deaths, and recoveries from the Covid-19 pandemic from different countries around the world. The app can help users track the current situation of the pandemic in their country, and also provide information on the trends and patterns of the virus globally.**
 
-## 🛠 Built With <a name="built-with">HTML 5 , css3, javascript ES6, React , Redux and external API</a>
+## 🛠 Built With <a name="built-with">
+HTML 5 , css3, javascript ES6, React , Redux and external API</a>
 
 ### Tech Stack <a name="tech-stack"></a>
 - React, redux, axios, jest webpack and babel
@@ -48,14 +53,14 @@
 
 ### Key Features <a name="key-features"></a>
 
-> **[Filter the country of their choice]**
-> **[Display App information from API]**
+> **Filter the country of their choice**
+> **Display App information from API**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
--
+-[Live Demo](https://www.loom.com/share/5fb7c791092a4418ac2ea9ae8bb3e5f5)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -151,7 +156,7 @@ If you like this project, you are welcomed to star and fork it. You can also sha
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to appreciate [Microverse] for providing the resources and the platform for us to be a Professional full-stack developer, and I would specially thank [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) who is the original author of this [design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs))
+I would like to appreciate Microverse for providing the resources and the platform for us to be a Professional full-stack developer, and I would specially thank [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) who is the original author of this [design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs))
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

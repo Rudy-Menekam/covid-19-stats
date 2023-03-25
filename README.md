@@ -1,8 +1,8 @@
-# Covid-19 Stats
-<div align="center">>
+
+<div align="center">
   <img src="./src/images/search.png" alt="logo" width="140"  height="auto" />
   <br/>
-  <h3> 🚀 <b>Covid-19 Stats</b></h3>
+  <h2> 🚀 <b>Covid-19 Stats</b></h2>
 
 </div>
 
@@ -60,7 +60,8 @@ HTML 5 , css3, javascript ES6, React , Redux and external API</a>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
--[Live Demo](https://www.loom.com/share/5fb7c791092a4418ac2ea9ae8bb3e5f5)
+-[Live video](https://www.loom.com/share/5fb7c791092a4418ac2ea9ae8bb3e5f5)
+-[live Demo](https://world-covid19stats.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

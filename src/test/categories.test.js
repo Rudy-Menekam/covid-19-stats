@@ -38,4 +38,3 @@ describe('Countries redux state tests', () => {
     expect(axiosSpy).toHaveBeenCalledWith(url);
   }, 10000);
 });
-
